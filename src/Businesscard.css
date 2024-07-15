@@ -1,0 +1,69 @@
+#crt1{
+    height: 180px;
+    width: 320px;
+    background-image: url('https://www.ultraimagehub.com/wallpapers/tr:flp-false,gx-0.9,gy-0.5,q-75,rh-3264,rw-5824,th-1080,tw-1920/1242067644371173396.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+    top: 50px;
+    padding-top: 130px;
+    font-size: 20px;
+
+}
+#crt2{
+     height: 180px;
+    width: 320px;
+    background-image: url('https://www.ultraimagehub.com/wallpapers/tr:flp-false,gx-0.9,gy-0.5,q-75,rh-3264,rw-5824,th-1080,tw-1920/1242067644371173396.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+     filter: blur(2px); 
+     -webkit-backdrop-filter: blur(2px); 
+     backdrop-filter: blur(100px);  
+     position: relative;
+     top: 100px;
+     left: 170px;
+
+}
+#crt3{
+    color: white;
+    position: relative;
+    bottom: 150px;
+}
+#i1,#i2,#i3,#i4,#i5{
+    position: relative;
+    left: 170px;
+}
+#i1{
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    padding-left: 20px;
+}
+#i2{
+    padding-left: 20px;
+    font-size: 15px;
+    position: relative;
+    top: 60px;
+}
+#i3{
+    position: relative;
+    top: 60px;
+    left: 190px;
+}
+#i4{
+    position: relative;
+    top: 50px;
+    left: 190px;
+}
+#i5{
+    position: relative;
+    top: 40px;
+    left: 190px;
+    line-height: 17px;
+        display: -webkit-box;
+        line-clamp: 1; /* Number of lines to show */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}

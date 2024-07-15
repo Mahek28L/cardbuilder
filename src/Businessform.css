@@ -1,0 +1,42 @@
+#div1{
+    height: 600px;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid black;
+}
+#id1,#id2,#id3,#id4,#id5,#id6{
+    height: 45px;
+    width: 400px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+h2{
+    margin-top: 15px;
+}
+#btn1{
+     height: 45px;
+    width: 170px;
+    border: none;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    position: relative;
+    right: 20px;
+}
+#btn1:hover{
+    box-shadow: 2px 2px 5px black;
+}
+#btn2{
+    height: 45px;
+   width: 170px;
+   border: none;
+   border-radius: 15px;
+   background-color: blue;
+   color: white;
+   position: relative;
+   left: 20px;
+}
+#btn2:hover{
+   box-shadow: 2px 2px 5px black;
+}
